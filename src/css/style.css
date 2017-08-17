@@ -1,0 +1,30 @@
+.message, body .success, body .warning, body .danger {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333; }
+
+body {
+  font-family: sans-serif;
+  color: #fff;
+  background: #333;
+  display: block;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+  body .hello {
+    color: #333;
+    background: #fff;
+    font-size: 24px; }
+  body .dhaka {
+    color: teal;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column; }
+  body .success {
+    color: green; }
+  body .warning {
+    color: yellow; }
+  body .danger {
+    color: red; }

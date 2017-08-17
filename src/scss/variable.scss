@@ -1,0 +1,15 @@
+$color1: #fff;
+$color2: #333;
+$color3: teal;
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+.message {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
